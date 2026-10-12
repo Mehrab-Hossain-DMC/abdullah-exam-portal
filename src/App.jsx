@@ -308,7 +308,7 @@ export default function App() {
       setActiveMcqQuestions(filtered);
       setAnswers({});
       setCurrentQIndex(0);
-      setTimeLeft(filtered.length * 60); // 1 min per Q
+      setTimeLeft(filtered.length * 30); // 30 seconds per Question
       setAppState('mcq-exam');
 
     } else {
